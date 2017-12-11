@@ -3,17 +3,17 @@ package model;
 import java.util.List;
 
 public class Populacao {
-    private List<Objeto> objetos;
+    private List<Mochila> mochilas;
 
-    public Populacao(List<Objeto> objetos) {
-        this.objetos = objetos;
+    public Populacao(List<Mochila> mochilas) {
+        this.mochilas = mochilas;
     }
 
-    public List<Objeto> getObjetos() {
-        return objetos;
+    public List<Mochila> getMochilas() {
+        return mochilas;
     }
 
-    public void setObjetos(List<Objeto> objetos) {
-        this.objetos = objetos;
+    public void setMochilas(List<Mochila> mochilas) {
+        this.mochilas = mochilas;
     }
 }

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="AG-mochila:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AG_mochila_jar</output-path>
+    <root id="root">
+      <element id="archive" name="AG-mochila.jar">
+        <element id="module-output" name="AG-mochila" />
+      </element>
+    </root>
+  </artifact>
+</component>

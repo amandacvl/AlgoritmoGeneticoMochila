@@ -1,37 +1,27 @@
 package model;
 
 public class Objeto {
-    private int beneficio;
-    private int peso;
-    private boolean status;
+    private Integer beneficio;
+    private Integer peso;
 
-    public Objeto(int beneficio, int peso, boolean status) {
+    public Objeto(Integer beneficio, Integer peso) {
         this.beneficio = beneficio;
         this.peso = peso;
-        this.status = status;
     }
 
-    public int getBeneficio() {
+    public Integer getBeneficio() {
         return beneficio;
     }
 
-    public void setBeneficio(int beneficio) {
+    public void setBeneficio(Integer beneficio) {
         this.beneficio = beneficio;
     }
 
-    public int getPeso() {
+    public Integer getPeso() {
         return peso;
     }
 
-    public void setPeso(int peso) {
+    public void setPeso(Integer peso) {
         this.peso = peso;
-    }
-
-    public boolean isStatus() {
-        return status;
-    }
-
-    public void setStatus(boolean status) {
-        this.status = status;
     }
 }
