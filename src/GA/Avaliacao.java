@@ -7,13 +7,13 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class Avaliacao {
 
-
+    //Se o peso da mochila for maior do que o peso máximo, o seu benefício será penalizado para "-1".
     public static void verificarMochilasInvalidas(Mochila mochila){
         if(mochila.getPesoTotal() > Mochila.PESO_MAX){
             mochila.setBeneficioTotal(-1);
         }
     }
-
+    //Dado um cromossomo, retorno o peso total.
     public static Integer calcularPeso(List<Integer> cromossomo){
         AtomicReference<Integer> pesoTotal = new AtomicReference<>(0);
 
